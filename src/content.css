@@ -1,0 +1,5 @@
+/* Secciones marcadas por content.js */
+[data-yt-limpio-oculto] { display: none !important; }
+
+/* Jugables: cualquier sección del inicio que enlace a /playables */
+ytd-browse[page-subtype="home"] ytd-rich-section-renderer:has(a[href^="/playables"]) { display: none !important; }

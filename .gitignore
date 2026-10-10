@@ -1,0 +1,4 @@
+firmadas/
+build/
+dist/
+*.bak-*

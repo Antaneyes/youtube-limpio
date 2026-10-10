@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Limpio",
+  "version": "1.0.1",
+  "description": "Oculta 'Más relevantes' en Suscripciones y las secciones de noticias, Jugables y promociones de miembros en Inicio.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
